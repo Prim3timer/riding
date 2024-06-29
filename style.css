@@ -16,15 +16,15 @@ body {
 .jumbotron {
     display: flex;
     background-color: transparent;
-    margin: 0 10px;
+    margin: 0 10px;  
     /* padding: 10px; */
   }
 
   .container-fluid {
     width: 80%;
-    height: 100vh;
+    /* height: 60vh; */
     padding-right: 10px;
-    margin: 0 2px;
+    margin: 0  2px;
     box-sizing: border-box;
     /* align-items: center; */
   }
@@ -50,8 +50,13 @@ body {
   /*output box*/
   #output {
     /* text-align: center; */
+    display: none;
     font-size: 1em;
     margin: 10px auto;
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
   }
   
   #mode {
@@ -62,7 +67,6 @@ body {
     width: 100%;
     font-size: 1.5rem;
     padding: 5px;
-    margin-bottom: 5px;
     border: solid 2px black;
     border-radius: 15px;
   }
