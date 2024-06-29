@@ -68,3 +68,17 @@ body {
     border-radius: 15px;
   }
 
+  button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 0;
+    width: 6rem;
+    border-color: dodgerblue; 
+    border-radius: 5px;
+  }
+
+  
+
+  #truth {
+    display: none;
+  }

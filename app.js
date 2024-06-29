@@ -52,6 +52,10 @@ function calcRoute() {
             output.innerHTML = "<div class='alert-danger'><i class='fas fa-exclamation-triangle'></i> Could not retrieve driving distance.</div>";
         }
     });
+    let button = document.getElementsByTagName('button')[0]
+    button.style.display = 'none'
+    let truth = document.getElementById('truth')
+    truth.style.display = 'block'
 
 }
 
