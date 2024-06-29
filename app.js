@@ -3,7 +3,7 @@
 var myLatLng = { lat: 44.477555, lng: -73.212692 };
 var mapOptions = {
     center: myLatLng,
-    zoom: 7,
+    zoom: 10,
     mapTypeId: google.maps.MapTypeId.ROADMAP
 
 };
@@ -37,8 +37,13 @@ function calcRoute() {
 
             //Get distance and time
             const output = document.querySelector('#output');
-            output.innerHTML = "<div class='alert-info'>From: " + document.getElementById("from").value + ".<br />To: " + document.getElementById("to").value + ".<br /> Driving distance <i class='fas fa-road'></i> : " + result.routes[0].legs[0].distance.text + ".<br />Duration <i class='fas fa-hourglass-start'></i> : " + result.routes[0].legs[0].duration.text  + ".<br/> Price: " + 
+            output.innerHTML = "<div class='alert-info'>" + " Driving distance <i class='fas fa-road'></i> : " + result.routes[0].legs[0].distance.text + ".<br />Duration <i class='fas fa-hourglass-start'></i> : " + result.routes[0].legs[0].duration.text  + ".<br/> Price: " + 
             '$' + (result.routes[0].legs[0].distance.text.split(' ')[0] * 1.8).toFixed(2)  + ".</div>";
+
+
+            // const output = document.querySelector('#output');
+            // output.innerHTML = "<div class='alert-info'>From: " + document.getElementById("from").value + ".<br />To: " + document.getElementById("to").value + ".<br /> Driving distance <i class='fas fa-road'></i> : " + result.routes[0].legs[0].distance.text + ".<br />Duration <i class='fas fa-hourglass-start'></i> : " + result.routes[0].legs[0].duration.text  + ".<br/> Price: " + 
+            // '$' + (result.routes[0].legs[0].distance.text.split(' ')[0] * 1.8).toFixed(2)  + ".</div>";
 
             //display route
             directionsDisplay.setDirections(result);
@@ -55,8 +60,7 @@ function calcRoute() {
     let truth = document.getElementById('truth')
     truth.style.display = 'block'
     let output = document.getElementById('output')
-    output.style.display = 'block'
-
+    output.style.display = 'flex'
 }
 
 
@@ -71,5 +75,4 @@ var autocomplete1 = new google.maps.places.Autocomplete(input1, options);
 
 var input2 = document.getElementById("to");
 var autocomplete2 = new google.maps.places.Autocomplete(input2, options);
-
 

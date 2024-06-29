@@ -36,7 +36,7 @@ body {
     letter-spacing: 2.5px; 
      color: steelblue;
      font-size: 2rem;
-     margin-top: -2rem;
+     margin-top: 1rem;
   }
   
   
@@ -52,7 +52,7 @@ body {
   /*output box*/
   #output {
     /* text-align: center; */
-    display: flex;
+ 
     display: none;
     font-size: 1em;
     margin: 10px auto;
