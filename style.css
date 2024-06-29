@@ -4,6 +4,7 @@
 body {
     color: sienna;
     font-family: "Poppins", sans-serif;
+    /* font-size: 2rem; */
 }
 
 
@@ -34,22 +35,24 @@ body {
 .jumbotron article h1 {
     letter-spacing: 2.5px; 
      color: steelblue;
+     font-size: 2rem;
+     margin-top: -2rem;
   }
   
   
   /*map*/
   #googleMap {
-    width: 100%;
+    width: 70%;
     height: 100vh;
     /* margin: 10px auto; */
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
   }
   
   /*output box*/
   #output {
     /* text-align: center; */
+    display: flex;
     display: none;
     font-size: 1em;
     margin: 10px auto;
