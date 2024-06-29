@@ -32,9 +32,9 @@ body {
 
 
 
-.jumbotron article h2 {
-    /* letter-spacing: 2.5px; */
-    /* font-size: 3em; */
+.jumbotron article h1 {
+    letter-spacing: 2.5px; 
+     font-size: 3em;
   }
   
   
@@ -61,7 +61,7 @@ body {
 
   .form-control {
     width: 100%;
-    /* font-size: 1.5rem; */
+    font-size: 1.5rem;
     padding: 5px;
     margin-bottom: 5px;
   }
