@@ -37,7 +37,7 @@ function calcRoute() {
 
             //Get distance and time
             const output = document.querySelector('#output');
-            output.innerHTML = "<div class='alert-info'>" + " Driving distance <i class='fas fa-road'></i> : " + result.routes[0].legs[0].distance.text + ".<br />Duration <i class='fas fa-hourglass-start'></i> : " + result.routes[0].legs[0].duration.text  + ".<br/> Price: " + 
+            output.innerHTML = "<div class='alert-info'>" + " Driving distance: " + result.routes[0].legs[0].distance.text + ".<br />Duration: " + result.routes[0].legs[0].duration.text  + ".<br/> Price: " + 
             '$' + (result.routes[0].legs[0].distance.text.split(' ')[0] * 1.8).toFixed(2)  + ".</div>";
 
 
@@ -75,4 +75,6 @@ var autocomplete1 = new google.maps.places.Autocomplete(input1, options);
 
 var input2 = document.getElementById("to");
 var autocomplete2 = new google.maps.places.Autocomplete(input2, options);
+
+// voice mainl: 30083652
 

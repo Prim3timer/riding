@@ -54,9 +54,9 @@ body {
     /* text-align: center; */
  
     display: none;
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 10px auto;
-    background-color: maroon;
+    background-color: darkslategrey;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -83,6 +83,14 @@ body {
     border-radius: 5px;
     margin-right: 20px;
     font-size: 1.5rem;
+    box-shadow: 0.2em 0.3em 0.4em gray;
+  }
+  button:active {
+    box-shadow: 0em 0em 0em gray;
+    transition-property: box-shadow scale;
+    transform: scale(0.95, 0.95);
+    box-shadow: 0em 0e 0em;
+    transition-duration: 0.1s;
   }
 
   
