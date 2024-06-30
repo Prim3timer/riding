@@ -105,7 +105,18 @@ body {
         margin-top: -15px;
     }
 
-    
+   
+
+    @media screen and (max-width: 576px) {
+
+        .form-control {
+            width: 100%;
+            /* font-size: 1.5rem;
+            padding: 5px;
+            border: solid 2px black;
+            border-radius: 15px; */
+          }
+
           .jumbotron {
             display: block;
             background-color: transparent;
