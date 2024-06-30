@@ -157,5 +157,12 @@ body {
           #truth {
             margin: 2rem 0;
           }
+
+          .jumbotron article h1 {
+            letter-spacing: 2.5px; 
+        
+             font-size: 4rem;
+         
+          }
       
       }
