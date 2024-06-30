@@ -37,7 +37,7 @@ function calcRoute() {
 
             //Get distance and time
             const output = document.querySelector('#output');
-            output.innerHTML = "<div class='alert-info'>" + " Driving distance: " + result.routes[0].legs[0].distance.text + ".<br />Duration: " + result.routes[0].legs[0].duration.text  + ".<br/> Price: " + 
+            output.innerHTML = "<div class='alert-info'>" + " Distance: " + result.routes[0].legs[0].distance.text + ".<br />Duration: " + result.routes[0].legs[0].duration.text  + ".<br/> Price: " + 
             '$' + (result.routes[0].legs[0].distance.text.split(' ')[0] * 1.8).toFixed(2)  + ".</div>";
 
 
