@@ -107,6 +107,7 @@ body {
 
    
 
+    /* @media screen and (max-width: 576px) and (orientation: portrait) { */
     @media screen and (orientation: portrait) {
 
         .form-control {
