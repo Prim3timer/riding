@@ -146,9 +146,10 @@ body {
           }
           
           #output {
-            line-height: 10vh;
-            width: 50vw;
+            line-height: 5vh;
+            width: 80vw;
             align-items: center;
+            font-size: 4rem;
           }
           #calc {
             margin: 2rem;
