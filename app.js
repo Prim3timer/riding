@@ -55,8 +55,8 @@ function calcRoute() {
 
             //show error message
             output.innerHTML = "<div class='alert-danger'><i class='fas fa-exclamation-triangle'></i> Could not retrieve driving distance.</div>";
-        }
-    });
+          }
+        });
     let truth = document.getElementById('truth')
     truth.style.display = 'block'
     let output = document.getElementById('output')
@@ -75,6 +75,12 @@ var autocomplete1 = new google.maps.places.Autocomplete(input1, options);
 
 var input2 = document.getElementById("to");
 var autocomplete2 = new google.maps.places.Autocomplete(input2, options);
+autocomplete1.style.display = '5rem'
+
+
+const word = 'Rattlesnaekpoison'
+
+
 
 // voice mainl: 30083652
 

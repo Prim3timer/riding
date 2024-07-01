@@ -32,6 +32,7 @@ body {
 
 
 
+
 .jumbotron article h1 {
     letter-spacing: 2.5px; 
      color: steelblue;
@@ -62,6 +63,8 @@ body {
     padding: 10px;
     border-radius: 5px;
     width: 20rem;
+    /* height: 4rem; */
+
   }
   
   #mode {
@@ -113,7 +116,7 @@ body {
 
         .form-control {
             width: 100%;
-            font-size: 5rem;
+            font-size: 4rem;
             /* padding: 5px;
             border: solid 2px black;
             border-radius: 15px; */
@@ -151,6 +154,8 @@ body {
             width: 80vw;
             align-items: center;
             font-size: 4rem;
+            border-radius: 5px;
+            padding: 2rem;
           }
           #calc {
             margin: 2rem;
